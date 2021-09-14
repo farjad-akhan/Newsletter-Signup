@@ -35,7 +35,7 @@ app.post("/",function(req,res){
 
   const options={
     method: "POST",
-    auth:"farjad:8457b4ddbb516c2290540932ea90b623-us5"
+    auth:"farjad:******************"
   }
 
   const request = https.request(url,options,function(response){
@@ -59,7 +59,4 @@ app.post("/failure", function(req,res){
 app.listen(process.env.PORT || 3000,function(){
   console.log("Server is  running on port 3000");
 });
-// API
-// 8457b4ddbb516c2290540932ea90b623-us5
-//List id
-// fe8adb953c
+
